@@ -9,9 +9,14 @@ for i in my_list:
 
 new_set = set(new_list)
 output = ', '.join(map(str, new_set))
-print(f'Duplicate numers are {output}') 
+print(f'Duplicate numbers are {output}') 
 
 # same result with lambda function and filer
 lambda_set = set(filter(lambda item: my_list.count(item) > 1, my_list))
 output = ', '.join(map(str, lambda_set))
-print(f'Duplicate numers are {output}') 
+print(f'Duplicate numbers are {output}')
+
+# same result with comprehension
+comprehension_set = {item for item in my_list if my_list.count(item) > 1}
+output = ', '.join(map(str, comprehension_set))
+print(f'Duplicate numbers are {output}')
