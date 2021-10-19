@@ -5,12 +5,12 @@ from plotly.subplots import make_subplots
 
 specific = ['AMD']
 
-for filename in os.listdir('python-finance/datasets/'):
+for filename in os.listdir('python_finance_backtester/datasets/'):
     # print(filename)
     symbol = filename.split('.')[0]
     print(symbol)
     if symbol in specific:
-        df = pandas.read_csv('python-finance/datasets/{}'.format(filename), parse_dates=True, index_col=0)
+        df = pandas.read_csv('python_finance_backtester/datasets/{}'.format(filename), parse_dates=True, index_col=0)
 
 print(df)
 df_ohlc = df['Adj Close'].resample('1W').ohlc()
