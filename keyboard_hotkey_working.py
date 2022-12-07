@@ -12,5 +12,5 @@ def F2():
 keyboard.add_hotkey('F1', F1) 
 keyboard.add_hotkey('F2', F2) 
 
-#run the program until 'esc' is pressed
-keyboard.wait('esc')
+#run the program until 'F12' is pressed
+keyboard.wait('F12')
