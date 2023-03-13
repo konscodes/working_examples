@@ -1,0 +1,56 @@
+WARNING:root:This is a Warning!
+ERROR:root:This is an Error!
+WARNING:root:This is a Warning!
+ERROR:root:This is an Error!
+INFO:root:This is Info
+WARNING:root:This is a Warning!
+ERROR:root:This is an Error!
+DEBUG:root:This is a Debug message
+INFO:root:This is Info
+WARNING:root:This is a Warning!
+ERROR:root:This is an Error!
+INFO:root:--- This is Info ---
+DEBUG:root:This is a Debug message
+WARNING:root:This is a Warning!
+ERROR:root:This is an Error!
+INFO:root:---- Start logging ----
+DEBUG:root:This is a Debug message
+INFO:root:This is Info
+WARNING:root:This is a Warning!
+ERROR:root:This is an Error!
+INFO:root:---- Start logging ----
+DEBUG:root:This is a Debug message
+INFO:root:This is Info
+WARNING:root:This is a Warning!
+ERROR:root:This is an Error!
+INFO:root:This log is created by Kevin
+---- Start logging ----
+This is a Debug message
+This is Info
+This is a Warning!
+This is an Error!
+This log is created by Kevin
+[INFO] 2023-03-13 08:16:28,739: ---- Start logging ----
+[DEBUG] 2023-03-13 08:16:28,740: This is a Debug message
+[INFO] 2023-03-13 08:16:28,740: This is Info
+[WARNING] 2023-03-13 08:16:28,740: This is a Warning!
+[ERROR] 2023-03-13 08:16:28,740: This is an Error!
+[INFO] 2023-03-13 08:16:28,740: This log is created by Kevin
+[INFO] 2023/03/13 %ii:03m:1678695593s: ---- Start logging ----
+[DEBUG] 2023/03/13 %ii:03m:1678695593s: This is a Debug message
+[INFO] 2023/03/13 %ii:03m:1678695593s: This is Info
+[WARNING] 2023/03/13 %ii:03m:1678695593s: This is a Warning!
+[ERROR] 2023/03/13 %ii:03m:1678695593s: This is an Error!
+[INFO] 2023/03/13 %ii:03m:1678695593s: This log is created by Kevin
+[INFO] 2023/03/13 08:20:16: ---- Start logging ----
+[DEBUG] 2023/03/13 08:20:16: This is a Debug message
+[INFO] 2023/03/13 08:20:16: This is Info
+[WARNING] 2023/03/13 08:20:16: This is a Warning!
+[ERROR] 2023/03/13 08:20:16: This is an Error!
+[INFO] 2023/03/13 08:20:16: This log is created by Kevin
+[INFO] 2023/03/13 08:23:12: ---- Start logging ----
+[DEBUG] 2023/03/13 08:23:12: This is a Debug message
+[INFO] 2023/03/13 08:23:12: This is Info
+[WARNING] 2023/03/13 08:23:12: This is a Warning!
+[ERROR] 2023/03/13 08:23:12: This is an Error!
+[INFO] 2023/03/13 08:23:12: This log is created by Kevin
