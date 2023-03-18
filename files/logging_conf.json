@@ -20,7 +20,7 @@
         "file": {
             "class": "logging.FileHandler",
             "formatter": "extended",
-            "filename": "./files/logger.log"
+            "filename": "{filename}"
         }
     },
     "loggers": {

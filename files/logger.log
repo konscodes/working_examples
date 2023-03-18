@@ -214,3 +214,15 @@ This log is created by Kevin
 [WARNING] by AppLogger at 2023/03/15 02:21:28: This is a Warning!
 [ERROR] by AppLogger at 2023/03/15 02:21:28: This is an Error!
 [INFO] by AppLogger at 2023/03/15 02:21:28: This log is created by Kevin
+[INFO] by AppLogger at 2023/03/18 21:26:14: ---- Start logging ----
+[DEBUG] by AppLogger at 2023/03/18 21:26:14: This is a Debug message
+[INFO] by AppLogger at 2023/03/18 21:26:14: This is Info
+[WARNING] by AppLogger at 2023/03/18 21:26:14: This is a Warning!
+[ERROR] by AppLogger at 2023/03/18 21:26:14: This is an Error!
+[INFO] by AppLogger at 2023/03/18 21:26:14: This log is created by Kevin
+[INFO] by AppLogger at 2023/03/18 21:27:28: ---- Start logging ----
+[DEBUG] by AppLogger at 2023/03/18 21:27:28: This is a Debug message
+[INFO] by AppLogger at 2023/03/18 21:27:28: This is Info
+[WARNING] by AppLogger at 2023/03/18 21:27:28: This is a Warning!
+[ERROR] by AppLogger at 2023/03/18 21:27:28: This is an Error!
+[INFO] by AppLogger at 2023/03/18 21:27:28: This log is created by Kevin
