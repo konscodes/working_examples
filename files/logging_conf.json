@@ -13,7 +13,6 @@
     "handlers": {
         "console": {
             "class": "logging.StreamHandler",
-            "level": "ERROR",
             "formatter": "extended",
             "stream": "ext://sys.stdout"
         },
@@ -21,15 +20,28 @@
             "class": "logging.FileHandler",
             "formatter": "extended",
             "filename": "{filename}"
+        },
+        "wsgi": {
+            "class": "logging.StreamHandler",
+            "level": "INFO",
+            "formatter": "simple",
+            "stream": "ext://flask.logging.wsgi_errors_stream"
         }
     },
     "loggers": {
-        "AppLogger": {
+        "custom": {
             "level": "DEBUG",
-            "handlers": ["file"]
+            "handlers": ["file"],
+            "propagate": false
+        },
+        "root": {
+            "level": "INFO",
+            "handlers": ["console"]
+        },
+        "trashbot": {
+            "level": "DEBUG",
+            "handlers": ["console", "file"],
+            "propagate": false
         }
-    },
-    "root": {
-        "handlers": ["console"]
     }
 }

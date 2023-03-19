@@ -226,3 +226,70 @@ This log is created by Kevin
 [WARNING] by AppLogger at 2023/03/18 21:27:28: This is a Warning!
 [ERROR] by AppLogger at 2023/03/18 21:27:28: This is an Error!
 [INFO] by AppLogger at 2023/03/18 21:27:28: This log is created by Kevin
+[ERROR] by custom at 2023/03/20 00:29:34: This message should go to file
+[INFO] by trashbot at 2023/03/20 00:29:34: This message should go to both file and console
+[DEBUG] by trashbot at 2023/03/20 00:29:34: This message should go to both file and console
+[ERROR] by custom at 2023/03/20 00:30:48: This message should go to file
+[INFO] by trashbot at 2023/03/20 00:30:48: This message should go to both file and console
+[DEBUG] by trashbot at 2023/03/20 00:30:48: This message should go to both file and console
+[ERROR] by custom at 2023/03/20 00:31:29: This message should go to file
+[INFO] by trashbot at 2023/03/20 00:31:29: This message should go to both file and console
+[DEBUG] by trashbot at 2023/03/20 00:31:29: This message should go to both file and console
+[ERROR] by custom at 2023/03/20 00:34:55: This message should go to file
+[INFO] by trashbot at 2023/03/20 00:34:55: This message should go to both file and console
+[DEBUG] by trashbot at 2023/03/20 00:34:55: This message should go to both file and console
+[INFO] by custom at 2023/03/20 00:34:55: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,ja;q=0.9,ru;q=0.8
+
+
+[ERROR] by custom at 2023/03/20 00:35:35: This message should go to file
+[INFO] by trashbot at 2023/03/20 00:35:35: This message should go to both file and console
+[DEBUG] by trashbot at 2023/03/20 00:35:35: This message should go to both file and console
+[INFO] by custom at 2023/03/20 00:35:35: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,ja;q=0.9,ru;q=0.8
+
+
+[ERROR] by custom at 2023/03/20 00:36:54: This message should go to file
+[INFO] by trashbot at 2023/03/20 00:36:54: This message should go to both file and console
+[DEBUG] by trashbot at 2023/03/20 00:36:54: This message should go to both file and console
+[INFO] by custom at 2023/03/20 00:36:54: Headers here 
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,ja;q=0.9,ru;q=0.8
+
+
