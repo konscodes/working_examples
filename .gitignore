@@ -110,6 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 .line-venv
+.flask-venv
 
 # Spyder project settings
 .spyderproject
