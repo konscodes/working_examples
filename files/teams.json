@@ -2,7 +2,7 @@
   "teams": [
     {
       "name": "Team 1",
-      "flag": false,
+      "duty": [],
       "rooms": [
         {
           "room": "B104",
@@ -22,7 +22,9 @@
     },
     {
       "name": "Team 2",
-      "flag": false,
+      "duty": [
+        "Garbage"
+      ],
       "rooms": [
         {
           "room": "B202",
@@ -42,7 +44,7 @@
     },
     {
       "name": "Team 3",
-      "flag": false,
+      "duty": [],
       "rooms": [
         {
           "room": "B204",
@@ -62,7 +64,9 @@
     },
     {
       "name": "Team 4",
-      "flag": false,
+      "duty": [
+        "Grocery"
+      ],
       "rooms": [
         {
           "room": "A102-1",
@@ -82,7 +86,7 @@
     },
     {
       "name": "Team 5",
-      "flag": true,
+      "duty": [],
       "rooms": [
         {
           "room": "A201",
@@ -102,7 +106,7 @@
     },
     {
       "name": "Team 6",
-      "flag": false,
+      "duty": [],
       "rooms": [
         {
           "room": "A203",
@@ -122,7 +126,7 @@
     },
     {
       "name": "Team 7",
-      "flag": false,
+      "duty": [],
       "rooms": [
         {
           "room": "A205",
@@ -142,7 +146,7 @@
     },
     {
       "name": "Team 8",
-      "flag": false,
+      "duty": [],
       "rooms": [
         {
           "room": "A206-1",
@@ -162,7 +166,7 @@
     },
     {
       "name": "Team 9",
-      "flag": false,
+      "duty": [],
       "rooms": [
         {
           "room": "B102",
