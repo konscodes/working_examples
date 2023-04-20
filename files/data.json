@@ -22,9 +22,7 @@
     },
     {
       "name": "Team 2",
-      "duty": [
-        "Garbage"
-      ],
+      "duty": [],
       "rooms": [
         {
           "room": "B202",
@@ -64,9 +62,7 @@
     },
     {
       "name": "Team 4",
-      "duty": [
-        "Grocery"
-      ],
+      "duty": [],
       "rooms": [
         {
           "room": "A102-1",
@@ -146,7 +142,9 @@
     },
     {
       "name": "Team 8",
-      "duty": [],
+      "duty": [
+        "Garbage"
+      ],
       "rooms": [
         {
           "room": "A206-1",
@@ -166,7 +164,9 @@
     },
     {
       "name": "Team 9",
-      "duty": [],
+      "duty": [
+        "Groceries"
+      ],
       "rooms": [
         {
           "room": "B102",
@@ -183,6 +183,16 @@
           }
         }
       ]
+    }
+  ],
+  "duties": [
+    {
+      "name": "Groceries",
+      "schedule": "monthly"
+    },
+    {
+      "name": "Garbage",
+      "schedule": "weekly"
     }
   ]
 }
